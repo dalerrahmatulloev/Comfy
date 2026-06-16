@@ -9,7 +9,8 @@ import About from "./pages/About/About";
 
 function App() {
   const location = useLocation().pathname;
-
+  console.log(location);
+  
   return (
     <div className="">
       <nav className={`navbar ${location === "/" ? "navbar__home" : ""}`}>
