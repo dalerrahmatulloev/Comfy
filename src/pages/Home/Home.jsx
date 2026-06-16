@@ -1,8 +1,17 @@
-import "./Home.css"
+import { useEffect, useState } from "react";
+import "./Home.css";
 
-// Худойназар
+// Мухаммад
 const Home = () => {
-    return <div className="home"></div>
-}
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch("../../../bd.json")
+      .then((Respons) => Respons.json())
+      .then((data) => setData(data.products));
+  }, []);
+
+  return <div className="home"></div>;
+};
 
 export default Home;

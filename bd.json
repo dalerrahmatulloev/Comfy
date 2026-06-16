@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "img": "./src/assets/images/img1.png",
       "title": "High-Back Bench",
       "price": "9.99",
