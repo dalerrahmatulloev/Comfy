@@ -1,0 +1,18 @@
+.navbar {
+    height: 59px;
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__home, .navbar__home button {
+    color: #fff;
+}
+
+.navbar__content {
+    display: flex;
+    gap: 64px;
+}

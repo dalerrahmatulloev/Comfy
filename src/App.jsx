@@ -1,16 +1,19 @@
 import "./App.css";
 import mapGrocery from "./assets/svg/mapGrocery.svg";
-import { Link, Route, Routes } from "react-router-dom";
+import mapGroceryBL from "./assets/svg/mapGroceryBL.svg";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Products from "./pages/Products/Products";
 import Product from "./pages/Product/Product";
 import About from "./pages/About/About";
 
 function App() {
+  const location = useLocation().pathname;
+
   return (
     <div className="">
-      <nav className="">
-        <div className="">
+      <nav className={`navbar ${location === "/" ? "navbar__home" : ""}`}>
+        <div className="navbar__content">
           <Link to="/">
             <button>Home</button>
           </Link>
@@ -27,7 +30,11 @@ function App() {
         </Link>
 
         <button>
-          <img src={mapGrocery} alt="Card" />
+          {location === "/" ? (
+            <img src={mapGrocery} alt="Card" />
+          ) : (
+            <img src={mapGroceryBL} alt="Card" />
+          )}
         </button>
       </nav>
 

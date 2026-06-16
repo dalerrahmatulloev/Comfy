@@ -2,7 +2,9 @@ import "./About.css"
 
 // Манучер
 const About = () => {
-    return <div className=""></div>
+    return <div className="">
+        About
+    </div>
 }
 
 export default About;
