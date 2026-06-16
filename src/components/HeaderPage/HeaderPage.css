@@ -1,0 +1,18 @@
+.headerPage {
+    height: 244px;
+    margin-top: 104px;
+    background-color: #F1F5F8;
+}
+
+.headerPage__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerPage__content h1 {
+    color: #235275;
+    font-size: 25px;
+}

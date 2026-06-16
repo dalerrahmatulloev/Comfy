@@ -1,6 +1,6 @@
 import "./About.css"
 
-// Манучер
+// Худойназар
 const About = () => {
     return <div className="">
         About
