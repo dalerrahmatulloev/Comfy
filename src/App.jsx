@@ -9,7 +9,7 @@ import About from "./pages/About/About";
 
 function App() {
   const location = useLocation().pathname;
-  console.log(location);
+  console.log(location + 1);
   
   return (
     <div className="">
