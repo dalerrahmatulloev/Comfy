@@ -1,0 +1,102 @@
+.cart__black {
+  position: fixed;
+  inset: 0;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+
+.cart__content {
+  width: 364px;
+  height: 100vh;
+  padding: 16px 18px 0 18px;
+
+  background: white;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.cart__closeSvg {
+  width: 18px;
+}
+
+.cart__title {
+  text-align: center;
+  font-family: "Charm";
+  padding-bottom: 10px;
+}
+
+.cart__cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 7px;
+}
+
+.cart__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.card-info {
+  display: flex;
+  gap: 10px;
+}
+
+.card__img {
+  width: 128px;
+  height: 90px;
+}
+
+.card__info h3 {
+  color: #000000de;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.card__info p {
+  color: #000000de;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.card__buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 7px;
+}
+
+.card__buttons button {
+  border: 3px solid #ba5d2c;
+  color: #ba5d2c;
+  height: 21px;
+  font-weight: 800;
+  width: 21px;
+  border-radius: 2px;
+}
+
+.cart__sum {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Charm';
+}
+
+.cart__check button {
+    width: 100%;
+    height: 52px;
+    background-color: #BA5D2C;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.ch {
+    
+}

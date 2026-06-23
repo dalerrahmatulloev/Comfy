@@ -23,6 +23,7 @@ button {
   border: none;
   cursor: pointer;
   background: transparent;
+  outline: none;
 }
 
 input {
@@ -44,4 +45,10 @@ a {
   color: inherit;
   display: flex;
   justify-content: center;
+}
+
+.flc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

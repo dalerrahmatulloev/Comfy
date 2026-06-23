@@ -1,11 +1,13 @@
 .navbar {
-    height: 59px;
     width: 1200px;
     margin: 0 auto;
-    position: absolute;
-    top: 28px;
+
+    position: sticky;
+    top: 11px;
+
     display: flex;
     justify-content: space-between;
+    height: 59px;
 }
 
 .navbar__home, .navbar__home button {
@@ -14,5 +16,20 @@
 
 .navbar__content {
     display: flex;
+    gap: 176px;
+}
+
+.navbar__pages {
+    display: flex;
     gap: 64px;
+}
+
+.navbar__pages button {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar__logo {
+  font-family: "Charm";
+  font-size: 48px;
 }
